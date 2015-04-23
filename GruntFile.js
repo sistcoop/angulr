@@ -22,4 +22,4 @@ module.exports = function(grunt) {
     gtx.alias('prerelease', ['bump-only:prerelease', 'release']);
 
     gtx.finalise();
-}
+};
